@@ -1,0 +1,208 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  /* background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuMCIgeTE9IjAuNSIgeDI9IjEuMCIgeTI9IjAuNSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzBmMGYwZiIvPjxzdG9wIG9mZnNldD0iOTklIiBzdG9wLWNvbG9yPSIjMGYwZjBmIi8+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjMDAwMDAwIi8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmFkKSIgLz48L3N2Zz4g');
+  background-size: 100%;
+  background-image: -moz-linear-gradient(0deg, #0f0f0f 0%, #0f0f0f 99px, #000000 100px);
+  background-image: -webkit-linear-gradient(0deg, #0f0f0f 0%, #0f0f0f 99px, #000000 100px);
+  background-image: linear-gradient(90deg, #0f0f0f 0%, #0f0f0f 99px, #000000 100px);
+  background-size: 100px 100px; */
+}
+
+h1 {
+  position: absolute;
+  top: 20px;
+  left: 935px;
+  color: #fff;
+  font-weight: normal;
+  font-size: 28px;
+  text-transform: uppercase;
+}
+
+/* Timeline - Years */
+.timelines-years {
+position: absolute;
+  top: 20px;
+  left: 0px;
+  margin: 0;
+  white-space: nowrap;
+width: 100%;
+  list-style: none;
+  /* Fix display: inline-block spacing issue */
+  font-size: 0;
+  height: 100%;
+}
+
+.timelines-years li {
+  position: relative;
+  top: -6px;
+  display: inline-block;
+  width: 10%;
+  color: #868686;
+  background-color: #f7f7f7;
+  font-size: 11px;
+  height: 100%;
+}
+.timelines-years li.white {
+  position: relative;
+  top: -6px;
+  display: inline-block;
+  width: 10%;
+  color: #868686;
+  background-color: #fff;
+  font-size: 11px;
+  height: 100%;
+}
+
+
+div.movies {
+  float: left;
+  width: 100%;
+}
+/* Timeline - Events */
+.timeline-events {
+  position: absolute;
+  width: 100%;
+  top: 170px;
+  padding: 0;
+  list-style: none;
+  white-space: nowrap;
+  /* Fix display: inline-block spacing issue */
+  font-size: 0;
+}
+
+
+.timeline-events h3{
+  margin: .5em 0 0 4em;
+  font-weight: normal;
+  font-size: 13px;
+  color: #fff;
+  padding: .6em;
+}
+
+
+.timeline-events h2 a {
+    color: #333;
+    text-transform: uppercase;
+    /* margin: 1.4em 0em 0em -6em; */
+    font-weight: bold;
+    font-size: 12px;
+    text-decoration: none;
+    float: left;
+    text-align: right;
+}
+h2 a.quiet {
+    margin-left: -120px;
+    margin-top: 10px;
+}
+h2 a.mulan {
+    margin-left: -50px;
+    margin-top: 18px;
+}
+h2 a.mutants {
+    margin-left: -150px;
+    margin-top: 18px;
+}
+h2 a.rabbit {
+    margin-left: -130px;
+    margin-top: 10px;
+}
+.timeline-events h2 a.03 {
+    color: #333;
+    text-transform: uppercase;
+    margin: 0.7em 0em 0em -9.5em;
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: none;
+    float: left;
+    text-align: right;
+}
+.timeline-events h2 a.04 {
+    color: #333;
+    text-transform: uppercase;
+    margin: 0.7em 0em 0em -9.5em;
+    font-weight: bold;
+    font-size: 12px;
+    text-decoration: none;
+    float: left;
+    text-align: right;
+}
+.timeline-events h2 a:hover {
+  color: #666;}
+
+
+.timeline-events li {
+  position: relative;
+  margin-bottom: 2em;
+  /* display: inline-block; */
+}
+
+/* .timeline-events li:before {
+  position: absolute;
+  left: 0;
+  bottom: -36px;
+  height: 60px;
+  border-radius: 8px;
+  content: '';
+} */
+
+
+/* X years */
+.timeline-event-years-01{
+margin-left: 11%;
+background-color: #ff9966;
+padding: 0px;}
+div.bullet-01 {
+background-image: url('images/quietPlace.png');
+background-repeat: no-repeat;
+background-position: left top;
+width: 50px;
+height: 50px;
+margin: -1px 0px 0px -20px;}
+
+.timeline-event-years-02{
+margin-left: 12%;
+background-color: #ff9966;
+padding: 0px;}
+div.bullet-01 {
+background-image: url('images/quietPlace.png');
+background-repeat: no-repeat;
+background-position: left top;
+width: 50px;
+height: 50px;
+margin: -1px 0px 0px -20px;}
+
+.timeline-event-years-03{
+margin-left: 15%;
+background-color: #ff9966;
+padding: 0px;}
+div.bullet-01 {
+background-image: url('images/quietPlace.png');
+background-repeat: no-repeat;
+background-position: left top;
+width: 50px;
+height: 50px;
+margin: -1px 0px 0px -20px;}
+
+.timeline-event-years-04{
+width: 43%;
+margin-left: 15%;
+background-color: #8cc63e;
+padding: 0px;}
+div.bullet-01 {
+background-image: url('images/quietPlace.png');
+background-repeat: no-repeat;
+background-position: left top;
+width: 50px;
+height: 50px;
+margin: -1px 0px 0px -20px;}
+
+div.bullet2-01 {
+background-image: url('images/quietPlace.png');
+background-repeat: no-repeat;
+background-position: left top;
+width: 50px;
+height: 50px;
+}
