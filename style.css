@@ -24,11 +24,12 @@ h1 {
 /* Timeline - Years */
 .timelines-years {
 position: absolute;
-  top: 20px;
+  top: 0px;
   left: 0px;
   margin: 0;
   white-space: nowrap;
 width: 100%;
+padding: 0px;
   list-style: none;
   /* Fix display: inline-block spacing issue */
   font-size: 0;
@@ -39,7 +40,7 @@ width: 100%;
   position: relative;
   top: -6px;
   display: inline-block;
-  width: 10%;
+  width: 12.5%;
   color: #868686;
   background-color: #f7f7f7;
   font-size: 11px;
@@ -49,7 +50,7 @@ width: 100%;
   position: relative;
   top: -6px;
   display: inline-block;
-  width: 10%;
+  width: 12.5%;
   color: #868686;
   background-color: #fff;
   font-size: 11px;
@@ -73,99 +74,53 @@ div.movies {
   font-size: 0;
 }
 
+ul.infoBlock {
+    list-style: none;
+    margin-left: 2.2em;
+    margin-top: -46px;
+}
 
-.timeline-events h3{
-  margin: .5em 0 0 4em;
+ul.infoBlock li {
   font-weight: normal;
-  font-size: 13px;
+  font-size: 12px;
   color: #fff;
-  padding: .6em;
 }
 
 
-.timeline-events h2 a {
-    color: #333;
-    text-transform: uppercase;
-    /* margin: 1.4em 0em 0em -6em; */
-    font-weight: bold;
-    font-size: 12px;
-    text-decoration: none;
-    float: left;
-    text-align: right;
+ul.infoBlock li a {
+color: #333;
+text-transform: uppercase;
+font-weight: bold;
+font-size: 13px;
+text-decoration: none;
 }
-h2 a.quiet {
-    margin-left: -120px;
-    margin-top: 10px;
-}
-h2 a.mulan {
-    margin-left: -50px;
-    margin-top: 18px;
-}
-h2 a.mutants {
-    margin-left: -150px;
-    margin-top: 18px;
-}
-h2 a.rabbit {
-    margin-left: -130px;
-    margin-top: 10px;
-}
-.timeline-events h2 a.03 {
-    color: #333;
-    text-transform: uppercase;
-    margin: 0.7em 0em 0em -9.5em;
-    font-weight: bold;
-    font-size: 14px;
-    text-decoration: none;
-    float: left;
-    text-align: right;
-}
-.timeline-events h2 a.04 {
-    color: #333;
-    text-transform: uppercase;
-    margin: 0.7em 0em 0em -9.5em;
-    font-weight: bold;
-    font-size: 12px;
-    text-decoration: none;
-    float: left;
-    text-align: right;
-}
-.timeline-events h2 a:hover {
+ul.infoBlock li a:hover {
   color: #666;}
 
 
-.timeline-events li {
-  position: relative;
-  margin-bottom: 2em;
-  /* display: inline-block; */
-}
-
-/* .timeline-events li:before {
-  position: absolute;
-  left: 0;
-  bottom: -36px;
-  height: 60px;
-  border-radius: 8px;
-  content: '';
-} */
 
 
 /* X years */
-.timeline-event-years-01{
-margin-left: 11%;
-background-color: #ff9966;
-padding: 0px;}
-div.bullet-01 {
-background-image: url('images/quietPlace.png');
-background-repeat: no-repeat;
-background-position: left top;
-width: 50px;
-height: 50px;
-margin: -1px 0px 0px -20px;}
+.timeline-event-years-01a{
+  margin: .5% 0% 0% 11%;
+  background-color: #ff9966;
+  padding: 0px;
+  width: 89%;
+  height: 50px;}
+  div.bullet-01 {
+  background-image: url('images/quietPlace.png');
+  background-repeat: no-repeat;
+  background-position: left top;
+  width: 50px;
+  height: 50px;
+  margin: -1px 0px 0px -20px;}
 
 .timeline-event-years-02{
-margin-left: 12%;
+margin: .5% 0% 0% 11%;
 background-color: #ff9966;
-padding: 0px;}
+padding: 0px;
+width: 89%;
+height: 50px;}
 div.bullet-01 {
 background-image: url('images/quietPlace.png');
 background-repeat: no-repeat;
@@ -175,9 +130,11 @@ height: 50px;
 margin: -1px 0px 0px -20px;}
 
 .timeline-event-years-03{
-margin-left: 15%;
+margin: .5% 0% 0% 14%;
 background-color: #ff9966;
-padding: 0px;}
+padding: 0px;
+width: 86%;
+height: 50px;}
 div.bullet-01 {
 background-image: url('images/quietPlace.png');
 background-repeat: no-repeat;
@@ -188,9 +145,10 @@ margin: -1px 0px 0px -20px;}
 
 .timeline-event-years-04{
 width: 43%;
-margin-left: 15%;
+margin: .5% 0% 0% 14%;
 background-color: #8cc63e;
-padding: 0px;}
+padding: 0px;
+height: 50px;}
 div.bullet-01 {
 background-image: url('images/quietPlace.png');
 background-repeat: no-repeat;
@@ -199,10 +157,17 @@ width: 50px;
 height: 50px;
 margin: -1px 0px 0px -20px;}
 
-div.bullet2-01 {
-background-image: url('images/quietPlace.png');
-background-repeat: no-repeat;
-background-position: left top;
-width: 50px;
-height: 50px;
+div.endDate{
+float: right;
+width: 50%;
+}
+div.endDate h3{
+float:left;
+margin: -50 0px 0px 0px;
+display: block;
+}
+div.rabbitEnd{
+float: right;
+margin: -47px -20px 0px 0px;
+
 }
